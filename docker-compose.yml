@@ -1,0 +1,12 @@
+version: '3.8'
+services:
+  rabbitmq:
+     container_name: "rabbitmq_AirLine"
+     image: rabbitmq:3-management-alpine
+     environment:
+       - RABBITMQ_DEFALUT_USER=user
+       - RABBITMQ_DEFALUT_PASS=mypass
+     ports:
+        - "5672:5672"
+        - "15672:15672"
+     

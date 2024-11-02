@@ -12,8 +12,8 @@ namespace FormulaAirline.API.Services
             var factoty = new ConnectionFactory()
             {
                 HostName="localhost",
-                UserName="user",
-                Password="mypass",
+                UserName= "guest",
+                Password= "guest",
                 VirtualHost ="/",
 
             };
